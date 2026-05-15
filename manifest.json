@@ -1,0 +1,10 @@
+{
+  "id": "canvas-node-linker",
+  "name": "Canvas Node Linker",
+  "version": "1.0.0",
+  "minAppVersion": "1.1.0",
+  "description": "A simple plugin that adds a right-click menu on Canvas nodes to instantly copy a wikilink of the node",
+  "author": "Giuseppe Mastrodomenico",
+  "authorUrl": "https://github.com/Mvstro",
+  "isDesktopOnly": false
+}

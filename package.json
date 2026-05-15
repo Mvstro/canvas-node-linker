@@ -1,0 +1,19 @@
+{
+  "name": "canvas-node-linker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --external:obsidian --outfile=main.js --platform=node",
+    "dev": "esbuild src/main.ts --bundle --external:obsidian --outfile=main.js --platform=node --watch"
+  },
+  "keywords": [],
+  "author": "Giuseppe Mastrodomenico",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.12.3",
+    "typescript": "^6.0.3"
+  }
+}
