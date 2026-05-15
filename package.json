@@ -1,7 +1,7 @@
 {
   "name": "canvas-node-linker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple plugin that adds a right-click menu on Canvas nodes to instantly copy a wikilink of the node.",
   "main": "main.js",
   "scripts": {
     "build": "esbuild src/main.ts --bundle --external:obsidian --outfile=main.js --platform=node",
