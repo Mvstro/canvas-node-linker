@@ -9,7 +9,7 @@
 > if you don't need the node Wikilink option, consider [this plugin](https://github.com/TGRRRR/Canvas-link-to-group)
 
 ```
-[[my-canvas.canvas#a1b2c3d4|My Heading]]   ← node with heading with label
+[[my-canvas.canvas#a1b2c3d4|My Heading]]   ← node with heading
 [[my-canvas.canvas#e5f6g7h8|My Group]]     ← group with label
 [[my-canvas.canvas#i9j0k1l2]]              ← node with no heading
 ```
